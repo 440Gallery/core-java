@@ -1,0 +1,20 @@
+Java is one of the most popular programming languages.
+
+Java's slogan is "Write once, run anywhere". Java programs can run on different platforms, including mobile, desktop, and other portable systems. You can use Java to build apps, games, banking applications, web apps, and much more!
+
+coding??
+Humans use computer programs to communicate with machines. Without computer programs, we wouldn't have smartphones, websites, or even exploration in outer space.
+img-component
+
+Learning some coding can help you innovate and create different solutions to problems, giving you a competitive edge in this technology-driven world.
+
+output??
+Most computer programs are designed to produce outputs. Here are some examples:
+
+ - "You've got a new message" notifications
+
+ - "Game Over" displayed on the screen when playing video games
+
+ - Your account balance when checking your online banking app.
+
+The simplest output consists of displaying a message on the screen.
