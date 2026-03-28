@@ -1,0 +1,97 @@
+1. java is a platform independence and object oriented programming language 
+because java is a write once run anywhere.
+2. architecture of jdk is java development kit
+code-->byte(compile)its create a class file-->jvm(run)
+3.jvm is a java virtual machine its convert code to machine level language
+role in java--> secure, portability, high performance, readability, multithread
+4. write once run anywhere its means write a code in once and run diff machines for example mac, window, linex by using a jvm 
+5. byte is a machine level language ex:Hello.java to convert a Hello.class file 
+int 4
+byte 1
+short 2
+Boolean 1
+long 8
+float 4
+double 8
+char 2
+these are the size of bytes
+6.datatype 
+primitive means declare a without ref ex: int, float, double, long etc
+non primitive means declare with ref ex: string array 
+7.default value means
+class Demo{
+	String name;
+	int num1;
+	long num2;
+	float num3;
+	double num4;
+	
+}
+class DemoRunner{
+	public static void main(String[] args){
+		Demo demo=new Demo();
+		System.out.println("default value name:"+demo.name);
+		System.out.println("default value name:"+demo.num1);
+		System.out.println("default value name:"+demo.num2);
+		System.out.println("default value name:"+demo.num3);
+		System.out.println("default value name:"+demo.num4);
+	}
+}
+
+8.variables in java means declare a value 
+variable are there are 3 type static(static is keyword) ,local(declare inside method), instance variable (declare a inside a class and outside method )
+for ex:
+class Demo{
+	String name;
+	int num1;//instance variable	
+	public static info(double num1){
+		System.out.println("executing")
+		}
+}
+
+9.static is a keyword declare a static method 
+static void Info(double num1) 
+|        |
+|        this is the default return type
+this is the static method  
+
+class Demo{
+	static void Info(double num1){
+		System.out.println("executing");
+		System.out.println("value:"+num1);
+		}
+}
+class DemoRunner{
+	public static void main(String[] args){
+		Demo.Info(9.0);
+	}
+}
+10.A shopkeeper record daily sle for a week. find total sales and highest sale day
+
+class Demo{
+	static void Info(int totalproduct, int sales,int maxsales){
+		System.out.println("executing");
+		if(totalproduct>=sales){
+		System.out.println("total sales:"+sales);
+		return;
+		}
+		if(totalproduct<=maxsales){
+		System.out.println("highest sales"+maxsales);
+		}
+		}
+}
+
+class DemoRunner{
+	public static void main(String[] args){
+		Demo.Info(20,10,18);
+	}
+}
+
+
+
+
+
+
+
+
+
