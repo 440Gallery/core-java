@@ -1,0 +1,56 @@
+class NoteBook{
+    String brand;
+    String model;
+    String color;
+    int pages;
+    String coverType;
+    double price;
+    boolean hardcover;
+    String size;
+    int linesPerPage;
+    String paperQuality;
+    boolean spiralBound;
+    String ruling;
+    int thickness;
+    String manufacturer;
+    double weight;
+    int quantity;
+    String material;
+    boolean perforated;
+    String indexType;
+    int chapters;
+    String pocket;
+    boolean elasticBand;
+    String penLoop;
+    int warrantyMonths;
+    String barcode;
+    double discount;
+    NoteBook() {
+        brand = "Classmate";
+        model = "Premium";
+        color = "Blue";
+        pages = 200;
+        coverType = "Softcover";
+        price = 120.50;
+        hardcover = false;
+        size = "A4";
+        linesPerPage = 30;
+        paperQuality = "High GSM";
+        spiralBound = true;
+        ruling = "Single Ruled";
+        thickness = 5;
+        manufacturer = "ITC";
+        weight = 0.45;
+        quantity = 1;
+        material = "Paper";
+        perforated = false;
+        indexType = "Alphabetical";
+        chapters = 10;
+        pocket = "None";
+        elasticBand = false;
+        penLoop = "Yes";
+        warrantyMonths = 12;
+        barcode = "1234567890";
+        discount = 0.10;
+    }
+}
