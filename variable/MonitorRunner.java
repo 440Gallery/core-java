@@ -31,5 +31,33 @@ class MonitorRunner {
         System.out.println("Discount: " + (monitor1.discount * 100) + "%");
         System.out.println("Quantity: " + monitor1.quantity);
         System.out.println("Energy Rating: " + monitor1.energyRating);
+		
+		
+		System.out.println("Brand: " + monitor2.brand);
+        System.out.println("Model: " + monitor2.model);
+        System.out.println("Display Type: " + monitor2.displayType);
+        System.out.println("Screen Size: " + monitor2.screenSize + " inch");
+        System.out.println("Resolution: " + monitor2.resolution);
+        System.out.println("Refresh Rate: " + monitor2.refreshRate + " Hz");
+        System.out.println("Response Time: " + monitor2.responseTime + " ms");
+        System.out.println("Curved: " + monitor2.curved);
+        System.out.println("Aspect Ratio: " + monitor2.aspectRatio);
+        System.out.println("Brightness: " + monitor2.brightness + " nits");
+        System.out.println("Panel Type: " + monitor2.panelType);
+        System.out.println("HDR Support: " + monitor2.hdrSupport);
+        System.out.println("Color: " + monitor2.color);
+        System.out.println("Price: ₹" + monitor2.price);
+        System.out.println("Warranty Months: " + monitor2.warrantyMonths);
+        System.out.println("Manufacturer: " + monitor2.manufacturer);
+        System.out.println("Country of Origin: " + monitor2.countryOfOrigin);
+        System.out.println("Weight: " + monitor2.weight + " kg");
+        System.out.println("Connectivity: " + monitor2.connectivity);
+        System.out.println("Speakers Built-In: " + monitor2.speakersBuiltIn);
+        System.out.println("Stand Type: " + monitor1.standType);
+        System.out.println("Wall Mountable: " + monitor2.wallMountable);
+        System.out.println("Barcode: " + monitor2.barcode);
+        System.out.println("Discount: " + (monitor2.discount * 100) + "%");
+        System.out.println("Quantity: " + monitor2.quantity);
+        System.out.println("Energy Rating: " + monitor2.energyRating);
     }
 }
