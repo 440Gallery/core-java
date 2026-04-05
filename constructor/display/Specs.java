@@ -9,7 +9,20 @@ class Specs{
     double weight;
     String style;
     String size;
-    
+    Specs(){
+		
+	}
+	Specs(String brand,String frameType){
+		this.brand=brand;
+        this.frameType=frameType;
+		
+	}
+	Specs(String brand,String frameType,String lensType){
+		this.brand=brand;
+        this.frameType=frameType;
+        this.lensType=lensType;
+		
+	}
 	Specs(String brand,String frameType,String lensType,String color,double price,boolean isPolarized,String material,double weight,String style,String size) {
         this.brand=brand;
         this.frameType=frameType;

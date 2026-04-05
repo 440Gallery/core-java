@@ -9,6 +9,20 @@ class Umbrella{
     boolean windResistant;
     double weight;
     String usage;
+	Umbrella(){
+		
+	}
+	Umbrella(String type,String color){
+		this.type=type;
+        this.color=color;
+		
+	}
+	Umbrella(String type,String color,String material){
+		this.type=type;
+        this.color=color;
+        this.material=material;
+		
+	}
 
     Umbrella(String type,String color,String material,String size,String brand,double price,boolean waterproof,boolean windResistant,double weight,String usage){
 		

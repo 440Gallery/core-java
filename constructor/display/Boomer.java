@@ -9,6 +9,20 @@ class Boomer{
     String origin;
     String usage;
     String size;
+	Boomer(){
+		
+	}
+	Boomer(String material,String shape){
+		this.material=material;
+        this.shape=shape;
+		
+	}
+	Boomer(String material,String shape,String color){
+		this.material=material;
+        this.shape=shape;
+        this.color=color;
+		
+	}
 
     Boomer(String material,String shape,String color,double weight,String brand,double range,double price,String origin,String usage,String size){
         this.material=material;

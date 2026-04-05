@@ -9,8 +9,22 @@ class SoftDrink{
     String packagingType;
     boolean isDiet;
     String expiryDate;
+	SoftDrink(){
+		
+	}
+	SoftDrink(String name,String brand){
+		this.name=name;
+        this.brand=brand;
+		
+	}
+	SoftDrink(String name,String brand,String flavor){
+		this.name=name;
+        this.brand=brand;
+        this.flavor=flavor;
+		
+	}
 
-    public SoftDrink(String name,String brand,String flavor,String size,int calories,double sugarContent,double price,String packagingType,boolean isDiet,String expiryDate){
+    SoftDrink(String name,String brand,String flavor,String size,int calories,double sugarContent,double price,String packagingType,boolean isDiet,String expiryDate){
         this.name=name;
         this.brand=brand;
         this.flavor=flavor;

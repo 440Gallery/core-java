@@ -9,7 +9,18 @@ class Chain{
     boolean isGoldPlated;
     String occasion;
     String style;
-
+	Chain(){
+		
+	}
+	Chain(String material,String type){
+		this.material=material;
+        this.type=type;
+	}
+	Chain(String material,String type,String length){
+		this.material=material;
+        this.type=type;
+        this.length=length;
+	}
     Chain(String material,String type,String length, double weight,String color,double price,String brand, boolean isGoldPlated,String occasion,String style) {
         this.material=material;
         this.type=type;

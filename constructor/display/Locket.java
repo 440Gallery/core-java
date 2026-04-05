@@ -9,7 +9,20 @@ class Locket{
     String brand;
     boolean isEngraved;
     String occasion;
-	
+	Locket(){
+		
+	}
+	Locket(String material,String shape){
+		this.material=material;
+        this.shape=shape;
+		
+	}
+	Locket(String material,String shape,String color){
+		this.material=material;
+        this.shape=shape;
+        this.color=color;
+		
+	}
 	Locket(String material,String shape,String color,double weight,String design,String chainType,double price,String brand,boolean isEngraved,String occasion) {
 		super();
         this.material=material;

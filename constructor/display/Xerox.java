@@ -9,6 +9,18 @@ class Xerox{
     double price;
     double weight;
     String usage;
+	Xerox(){
+		
+	}
+	Xerox(String brand,String model){
+		this.brand=brand;
+        this.model=model;
+	}
+	Xerox(String brand,String model,String type){
+		this.brand=brand;
+        this.model=model;
+        this.type=type;
+	}
 
     Xerox(String brand,String model,String type,int speed,String resolution,int paperCapacity,boolean colorSupport,double price,double weight,String usage) {
         this.brand=brand;

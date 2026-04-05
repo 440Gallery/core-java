@@ -8,9 +8,21 @@ class ArtMaterial{
     String material;    
     boolean ecoFriendly;
     String usage;      
-    String size;      
+    String size;
 	
-    public ArtMaterial(String name,String brand,String type,String color,double price,int quantity,String material,boolean ecoFriendly,String usage,String size){
+	ArtMaterial(){	
+	}
+	ArtMaterial(String name,String brand){
+		this.name=name;
+        this.brand=brand;	
+	}
+	ArtMaterial(String name, String brand, String type){
+		this.name=name;
+        this.brand=brand;
+        this.type=type;
+		
+	}
+    ArtMaterial(String name,String brand,String type,String color,double price,int quantity,String material,boolean ecoFriendly,String usage,String size){
         this.name=name;
         this.brand=brand;
         this.type=type;
@@ -23,6 +35,7 @@ class ArtMaterial{
         this.size=size;
     }
     void display() {
+		System.out.println("..............");
         System.out.println("Name:"+name);
         System.out.println("Brand:"+brand);
         System.out.println("Type:"+type);

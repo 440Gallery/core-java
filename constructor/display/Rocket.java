@@ -9,6 +9,20 @@ class Rocket{
     String missionType;
     double cost;
     boolean reusable;
+	Rocket(){
+		
+	}
+	Rocket(String name,String fuelType){
+		this.name=name;
+        this.fuelType=fuelType;
+		
+	}
+	Rocket(String name,String fuelType,double height){
+		this.name=name;
+        this.fuelType=fuelType;
+        this.height=height;
+		
+	}
     Rocket(String name,String fuelType,double height,double weight,double payloadCapacity,double speed,String country,String missionType,double cost,boolean reusable){
         this.name=name;
         this.fuelType=fuelType;

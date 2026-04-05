@@ -9,8 +9,22 @@ class InkPad{
     String usage;
     String durability;
     double weight;
+	InkPad(){
+		
+	}
+	InkPad(String color,String brand){
+		this.color=color;
+        this.brand=brand;
+		
+	}
+	InkPad(String color,String brand,String size){
+		this.color=color;
+        this.brand=brand;
+        this.size=size;
+		
+	}
 
-    public InkPad(String color,String brand,String size,String shape,String material,double price,boolean refillable,String usage,String durability,double weight){
+    InkPad(String color,String brand,String size,String shape,String material,double price,boolean refillable,String usage,String durability,double weight){
         this.color=color;
         this.brand=brand;
         this.size=size;
@@ -30,7 +44,7 @@ class InkPad{
         System.out.println("Shape:"+shape);
         System.out.println("Material:"+material);
         System.out.println("Price: ₹" + price);
-        System.out.println("Refillable:"+(refillable ? "Yes" : "No"));
+        System.out.println("Refillable:"+refillable);
         System.out.println("Usage:"+usage);
         System.out.println("Durability:"+durability);
         System.out.println("Weight:"+weight);
