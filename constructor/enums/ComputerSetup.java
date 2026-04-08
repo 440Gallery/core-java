@@ -11,7 +11,7 @@ class ComputerSetup{
 		this.monitor=monitor;
 	}
 	void checkinfo(){
-		System.out.println(".....details.....")
+		System.out.println(".....details.....");
 		System.out.println("ram:"+ram);
 		System.out.println("cpu:"+cpu);
 		System.out.println("operatingsystem:"+operatingsystem);
