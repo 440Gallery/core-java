@@ -14,7 +14,7 @@ class Bank{
         System.out.println("Location: " + location);
     }
     public Card getCardDetails(){
-        Card card = new Card("Anusha", 987654);
+        Card card = new Card("Deva", 987654);
         return card;
     }
 }

@@ -1,12 +1,32 @@
 class Demo{
-	static void Info(int totalproduct, int sales,int maxsales){
-		System.out.println("executing");
-		if(totalproduct>=sales){
-		System.out.println("total sales:"+sales);
+	String name;
+	int age;
+	String collegeName;
+	double height;
+	Array[] arr;
+	
+	Demo(String name,int age,String collegeName,double height,Array[] arr){
+		this.name=name;
+		this.age=age;
+		this.collegeName=collegeName;
+		this.height=height;
+		this.arr=arr;
+	}
+	void show(){
+		System.out.println("name:"+this.name);
+		System.out.println("age:"+this.age);
+		System.out.println("collegeName:"+this.collegeName);
+		System.out.println("height:"+this.height);
+		if(arr != null)
+		{
+			for (Array start : arr) 
+			{
+					start.info();
+			}
 		}
-		if(totalproduct>=maxsales){
-		System.out.println("highest sales"+maxsales);
+		else
+		{
+			System.out.println("array are null");
 		}
-		}
+	}
 }
-
