@@ -1,18 +1,20 @@
 class City{
 	String name;
 	int noOfDistricts;
-	District[] district;
+	District[] districts;
 	City(){
 		
 	}
-	City(String name,int noOfDistricts,District[] district){
+	City(String name,int noOfDistricts,District[] districts){
 		this.name=name;
 		this.noOfDistricts=noOfDistricts;
-		this.district=district;
+		this.districts=districts;
 	}
 	void cityDisplay(){
 		System.out.println("name:"+name);
 		System.out.println("noOfDistricts:"+noOfDistricts);
-		System.out.println("district:"+district);
+		for(District d =districts){
+			d.districtsDisplay();
+		}
 	}
 }

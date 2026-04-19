@@ -1,11 +1,12 @@
 class State{
 	String name;
 	long population;
-	City[] city;
+	City city;
+	
 	State(){
 		
 	}
-	State(String name,long population,City[] city){
+	State(String name,long population,City city){
 		this.name=name;
 		this.population=population;
 		this.city=city;
@@ -14,6 +15,6 @@ class State{
 	void stateDisplay(){
 		System.out.println("name:"+name);
 		System.out.println("population:"+population);
-		System.out.println("city:"+city);
+		city.cityDisplay();
 	}
 }

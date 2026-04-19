@@ -12,7 +12,7 @@ class District{
 	}
 	void districtDisplay(){
 		System.out.println("name:"+name);
-		System.out.println("collector:"+collector);
+		collector.collectorDisplay();
 		
 	}
 }

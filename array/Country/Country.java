@@ -1,19 +1,22 @@
-class Country{
+class Country
+{
 	String name;
-	String President;
-	State[] state;
+	President president;
+	State[] states;
 	
-	Country(String name,String President,State[] state){
+	Country(String name,President president,State[] states){
 		
 		this.name=name;
 		this.president=president;
-		this.state=state;
+		this.states=states;
+	}
 		
-		void countryDisplay(){
+    void countryDisplay(){
 			System.out.println("name:"+name);
-			System.out.println("president:"+president);
-			System.out.println("state:"+state);
-		}
-		
+			president.presidentDisplay();
+			for (State s : states){
+				s.stateDisplay();
+				}
+			}
 	}
 }
