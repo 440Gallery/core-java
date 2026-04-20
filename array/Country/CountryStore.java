@@ -41,10 +41,19 @@ class CountryStore{
         System.out.println(name + " state not found");
 		return null;		
 	}
-/*
+	
 	City[] findAllCityByStateName(String name){
+		for (Country c : countries) {
+                for (State s : c.states){
+					if(name==){
+						City[] cities = new City[1];
+                            cities[0] = state.city; 
+                            return cities;
+					}
+				}
 		
 	}
+	/*
 	int findNoOfDistrictsByCityName(String name){
 		
 	}
