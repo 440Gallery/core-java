@@ -8,9 +8,4 @@ class Electricity{
 		this.source=source;
 		this.voltage=voltage;
 	}
-	void show(){
-		System.out.println("...ElectricityDetails...");
-		System.out.println("source:"+source);
-		System.out.println("voltage:"+voltage);
-	}
 }
