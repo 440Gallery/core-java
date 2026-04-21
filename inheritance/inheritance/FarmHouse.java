@@ -1,9 +1,6 @@
 class FarmHouse {
     String name;
     String location;
-    int rooms;
-	String ownerName;
-	String FarmHouseCost;
 
     void open(){
 		System.out.println("opened."); 
@@ -14,8 +11,8 @@ class FarmHouse {
     void FarmHouseCost(){
 		System.out.println("cost 30000."); 
 	}
-    void rooms(){
-		System.out.println("5 rooms")
+    void service(){
+		System.out.println("availabe");
 	}
     void displayInfo(){
 		System.out.println("FarmHouse: " + name ); 

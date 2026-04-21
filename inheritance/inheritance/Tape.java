@@ -1,6 +1,6 @@
-class Tape{ 
+class Tape{
+    String color;	
     String brand;
-    String material;
     double width;
     double price;
 	
@@ -14,7 +14,8 @@ class Tape{
 		System.out.println("material"); 
 	}
     void displayInfo() {
-		System.out.println("Tape: " + brand);
+		System.out.println("color: " + color);
+		System.out.println("brand: " + brand);
         System.out.println("width: " + width);	
 		System.out.println("price: " + price);	
 	}
