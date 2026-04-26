@@ -3,4 +3,7 @@ class ChromeBrowser extends Browser{
 	void Web(){
 		System.out.println("running ChromeBrowser");
 	}
+	void ChromeBrowser(){
+		
+	}
 }
