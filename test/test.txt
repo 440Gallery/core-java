@@ -1,0 +1,81 @@
+class
+create car class and properties
+method in java 
+method overloading
+constructor
+types of constructor
+this keyword 
+this key word code
+
+class is a blueprint 
+it is imaginary and object is real 
+
+class Car{
+	int price;
+	String color;
+	String brand;
+
+	void start(){
+		System.out.println("car start");
+	}
+	void reverse(){
+		System.out.println("car reverse mood");
+	}
+	void stop(){
+		System.out.println("car stop");
+	}
+
+}
+
+method means behaviour/properties of class name 
+constructor is a special method its automatically create an object 
+constructor has no return value 
+i.e. constructor(){}
+
+types 
+parameterized constructor
+non parameterized constructor 
+...
+..
+this():
+it is call to run the current class constructor
+local chaining
+add a explicitly access same class constructor 
+
+class Car{
+	int price;
+	String color;
+	String version;
+	String brand;
+	
+	Car(){
+		this.price=price;
+		this.color=color;
+		this.version=version;
+		this.brand=brand;
+	}
+	void show(){
+		System.out.println(price);
+		System.out.println(color);
+		System.out.println(version);
+		System.out.println(brand);
+	}
+}
+
+method overloading
+sub class access a same parent class method  
+
+
+class Star{
+	public static void main(String[] args){
+		for(int i=0;i<5;i++){
+			for(int j=0;j<5;j++){
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+	}
+}
+
+
+
