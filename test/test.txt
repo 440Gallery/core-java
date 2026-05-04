@@ -63,7 +63,7 @@ class Car{
 }
 
 method overloading
-sub class access a same parent class method  
+same method name but diff parameter 
 
 
 class Star{
